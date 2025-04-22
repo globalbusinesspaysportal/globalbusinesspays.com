@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Business Pay - Offline</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    .logo {
+      max-width: 150px;
+      margin-bottom: 2rem;
+    }
+    .container {
+      max-width: 500px;
+      padding: 2rem;
+      border-radius: 12px;
+      background-color: #1e293b;
+      border: 1px solid #334155;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #f97316;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+      color: #cbd5e1;
+    }
+    .button {
+      background-color: #f97316;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-block;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #ea580c;
+    }
+  </style>
+</head>
+<body>
+  <img src="/LOGO_NN1.png" alt="Global Business Pay Logo" class="logo">
+  <div class="container">
+    <h1>You're Offline</h1>
+    <p>It appears you're currently offline. Please check your internet connection and try again.</p>
+    <p>Global Business Pay VISA card services require an internet connection to view the latest card information and process orders.</p>
+    <button class="button" onclick="window.location.reload()">Try Again</button>
+  </div>
+</body>
+</html>

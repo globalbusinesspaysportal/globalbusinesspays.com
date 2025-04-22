@@ -1,0 +1,21 @@
+{
+  "name": "Global Business Pay VISA Cards",
+  "short_name": "GBP VISA",
+  "description": "Premium VISA card services for global business professionals",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#f97316",
+  "icons": [
+    {
+      "src": "LOGO_NN1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "LOGO_NN1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
